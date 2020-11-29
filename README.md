@@ -5,7 +5,7 @@ VocabBot is a trainable vocab.com bot that is capable of answering multiple choi
 
 
 # Installation
-* For this project you will need php. If you don’t already have it, I would recommend installing the [XAMPP server utility](https://www.apachefriends.org/download.html) which comes with PHP. Alternatively, you can download just PHP from [their website](https://www.php.net/downloads.php).
+* For this project you will need PHP. If you don’t already have it, I would recommend installing the [XAMPP server utility](https://www.apachefriends.org/download.html) which comes with PHP. Alternatively, you can download just PHP from [their website](https://www.php.net/downloads.php).
 
 * Clone this repository: `git clone https://github.com/YumProjects/VocabBot.git`
 
