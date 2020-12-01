@@ -82,7 +82,13 @@ if(!isset($_REQUEST["prompt"])){
 }
 
 $prompt = $_REQUEST["prompt"];
-$data = json_decode(file_get_contents($DATA_FILE), TRUE);
+$data;
+if(file_exists($DATA_FILE)){
+    $data = json_decode(file_get_contents($DATA_FILE), TRUE);
+}
+else{
+    $data = [];
+}
 
 if(isset($_REQUEST["answer"])){
     $answer = $_REQUEST["answer"];
